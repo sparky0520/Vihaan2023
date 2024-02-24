@@ -3034,8 +3034,20 @@ border:solid 1px #ddd;
 	left:0;
 	position:absolute;
 	}
-	
-	
+	.custom-social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+	.social-icons a {
+        margin-right: 5px;
+		padding: 5px; 
+        transition: color 0.3s ease; /* Smooth transition for color change */
+    }
+
+    .social-icons a:hover {
+        color: #007bff; /* Change to your desired highlight color on hover */
+    }
 	.box-number .number{
 	display:block;
 	font-size:48px;
@@ -7878,3 +7890,5 @@ display:table;
 		display:none;
 	}
 	}
+
+	
