@@ -393,7 +393,7 @@ overflow:visible;
 		display:inline-block;
 	}
 	.logo-small{
-	margin-bottom:20px;
+		margin-bottom:20px;
 	}
 		
 	header.de_header_2{
@@ -7002,7 +7002,7 @@ display:table;
 
 .faqs-container {
   font-family: "Roboto", sans-serif;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
