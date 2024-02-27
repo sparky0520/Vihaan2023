@@ -1,9 +1,9 @@
   	$("#typed").typed({
-  		strings: ["Eat", "Code", "Sleep", "Repeat"],
-  		typeSpeed: 100,
+  		strings: ["eat()", "sleep()", "code()", "repeat()"],
+  		typeSpeed: 22,
   		startDelay: 0,
-  		backSpeed: 60,
-  		backDelay: 2000,
+  		backSpeed: 22,
+  		backDelay: 555,
   		loop: true,
   		cursorChar: "|",
   		contentType: 'html'

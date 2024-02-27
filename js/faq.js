@@ -11,9 +11,11 @@ jQuery(document).ready(function () {
       if (header.nextElementSibling.classList.contains("active")) {
         open.classList.remove("active");
         close.classList.add("active");
+        header.style.opacity = "1";
       } else {
         open.classList.add("active");
         close.classList.remove("active");
+        header.style.opacity = null;
       }
     });
   });

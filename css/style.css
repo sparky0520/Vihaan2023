@@ -1342,7 +1342,17 @@ section.custom-1 {
 footer {
   background: #101010;
   color: #ccc;
-  padding: 80px 0 0 0;
+  padding: 20px 0 0 0;
+  height: 160px;
+}
+
+/* 2024 footer fix */
+footer .text-md-left {
+  padding-top: 40px;
+}
+
+footer .text-md-right {
+  padding-top: 40px;
 }
 
 footer h3,
@@ -7401,10 +7411,20 @@ i.btn-action-hide {
   padding: 2rem;
   display: flex;
   background: #03071e;
+  opacity: 0.5;
+  font-size: 1.5rem;
   color: white;
   align-items: center;
   position: relative;
   cursor: pointer;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: 0.5s;
+}
+
+.faqs-container .faq-header:hover {
+  background: #03071e;
+  opacity: 1;
 }
 
 .faqs-container .faq-header .open,
@@ -7415,6 +7435,7 @@ i.btn-action-hide {
   font-size: 22px;
   font-weight: bold;
   transform: translateY(-8px);
+
   opacity: 0;
   transition: all 500ms;
 }
@@ -7432,12 +7453,16 @@ i.btn-action-hide {
 
 .faqs-container .content {
   padding: 0 32px;
-  background: black;
+  background: #2d2b51;
   color: whitesmoke;
   line-height: 2;
+  font-size: 1.2rem;
   max-height: 0;
   overflow: hidden;
   transition: all 500ms;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 20px;
 }
 
 .faqs-container .content.active {
@@ -8256,6 +8281,23 @@ i.btn-action-hide {
     .pricing-box {
       margin-bottom: 30px;
     }
+
+    /* 2024 footer fix */
+    footer .text-md-left {
+      padding: 0 0 0 0;
+    }
+    footer .text-md-right {
+      padding: 0 0 0 0;
+    }
+    footer .logo-small {
+      padding: 0 0 0 0;
+      margin-bottom: 0;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 0 0 0 0;
+      height: 290px;
+    }
   }
 
   /* -------------------------------------------------- 
@@ -8265,6 +8307,22 @@ i.btn-action-hide {
     .pf_full_width .item {
       float: left;
       width: 100% !important;
+    }
+    /* 2024 footer fix for mobile view*/
+    footer .text-md-left {
+      padding: 0 0 0 0;
+    }
+    footer .text-md-right {
+      padding: 0 0 0 0;
+    }
+    footer .logo-small {
+      padding: 0 0 0 0;
+      margin-bottom: 0;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 0 0 0 0;
+      height: 310px;
     }
 
     /*.item{
@@ -8298,4 +8356,28 @@ i.btn-action-hide {
 
 .social-media i:hover {
   color: #ffffff;
+}
+
+/* faq's content and margin padding fixed */
+.faqs-container .content {
+  padding: 0 32px;
+  background: black;
+  color: whitesmoke;
+  line-height: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+.content-container{
+  display: flex;
+  flex-direction: column;
+
+  
+  margin: 15px;
+  
+}
+
+p{
+  
+  padding-top: 15px;
 }
