@@ -8357,3 +8357,27 @@ i.btn-action-hide {
 .social-media i:hover {
   color: #ffffff;
 }
+
+/* faq's content and margin padding fixed */
+.faqs-container .content {
+  padding: 0 32px;
+  background: black;
+  color: whitesmoke;
+  line-height: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+.content-container{
+  display: flex;
+  flex-direction: column;
+
+  
+  margin: 15px;
+  
+}
+
+p{
+  
+  padding-top: 15px;
+}
