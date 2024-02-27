@@ -7417,6 +7417,8 @@ i.btn-action-hide {
   align-items: center;
   position: relative;
   cursor: pointer;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   transition: 0.5s;
 }
 
@@ -7433,6 +7435,7 @@ i.btn-action-hide {
   font-size: 22px;
   font-weight: bold;
   transform: translateY(-8px);
+
   opacity: 0;
   transition: all 500ms;
 }
@@ -7450,12 +7453,16 @@ i.btn-action-hide {
 
 .faqs-container .content {
   padding: 0 32px;
-  background: black;
+  background: #2d2b51;
   color: whitesmoke;
   line-height: 2;
+  font-size: 1.2rem;
   max-height: 0;
   overflow: hidden;
   transition: all 500ms;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 20px;
 }
 
 .faqs-container .content.active {
