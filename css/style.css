@@ -4368,6 +4368,8 @@ a.btn-right {
 
 .de-team-list img {
   width: 100%;
+  height: 296px;
+  object-fit: cover;
 }
 
 .de-team-list .team-desc {
