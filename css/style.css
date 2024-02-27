@@ -7411,10 +7411,18 @@ i.btn-action-hide {
   padding: 2rem;
   display: flex;
   background: #03071e;
+  opacity: 0.5;
+  font-size: 1.5rem;
   color: white;
   align-items: center;
   position: relative;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.faqs-container .faq-header:hover {
+  background: #03071e;
+  opacity: 1;
 }
 
 .faqs-container .faq-header .open,
