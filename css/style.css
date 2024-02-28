@@ -1282,6 +1282,12 @@ header:not(.header-mobile) #mainmenu > li:hover ul.mega {
 /* ================================================== */
 /* content */
 /* ================================================== */
+
+/* Typing animation phone view fix (centered) */
+#type-animation {
+  width: 1000px !important;
+}
+
 #content {
   width: 100%;
   background: #fff;
