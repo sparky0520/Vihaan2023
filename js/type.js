@@ -1,5 +1,5 @@
   	$("#typed").typed({
-  		strings: ["eat()", "sleep()", "code()", "repeat()"],
+  		strings: ["They call me 007", "0 Errors", "0 Bugs", "7 Pages Rendered"],
   		typeSpeed: 22,
   		startDelay: 0,
   		backSpeed: 22,
