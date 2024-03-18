@@ -1283,6 +1283,16 @@ header:not(.header-mobile) #mainmenu > li:hover ul.mega {
 /* content */
 /* ================================================== */
 
+/* button in phone */
+#register-button {
+  display: none;
+}
+@media only screen and (max-width: 750px) {
+                #register-button {
+                  display:flex;
+                }
+              }
+
 /* Typing animation phone view fix (centered) */
 #type-animation {
   width: 1000px !important;
